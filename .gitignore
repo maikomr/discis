@@ -1,0 +1,9 @@
+# npm packages
+node_modules/**
+
+# build file
+public/app.js
+
+# IDE properties
+.idea/**
+public/app.js.map

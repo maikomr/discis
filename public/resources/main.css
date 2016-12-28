@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.centered-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.paper {
+    margin-top: 15px;
+    padding: 5px 10px 10px 10px;
+}
+
+.action-buttons {
+    margin-top: 20px;
+    clear: both;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+@media only screen and (max-width: 700px) {
+    .centered-container {
+        width: 100% !important;
+    }
+}
